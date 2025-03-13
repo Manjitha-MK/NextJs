@@ -1,9 +1,9 @@
 import React from 'react'
 
-const page = ({params}) => {
+async function page({ params }) {
   return (
     <div>
-      <h1>meat item {params.id}</h1>
+      <h1>Meat item {params.id}</h1>
     </div>
   )
 }

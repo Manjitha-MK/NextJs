@@ -1,9 +1,9 @@
 import React from 'react'
 
-const page = ({params}) => {
+function page({params}) {
   return (
     <div>
-      <h1>vegi items {params.id}</h1>
+      <h1>vegitable item {params.vegid}</h1>
     </div>
   )
 }
