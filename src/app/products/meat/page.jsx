@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page = () => {
+function page() {
   return (
     <div>
       <h1>Meat items pages</h1>
@@ -9,3 +9,4 @@ const page = () => {
 }
 
 export default page
+
