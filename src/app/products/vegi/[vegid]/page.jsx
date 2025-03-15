@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
-export default async function page({ params }) {
+ async function page({ params }) {
+
   return (
     <div>
       <h1>vegitable item {params.vegid}</h1>
@@ -11,3 +12,5 @@ export default async function page({ params }) {
     </div>
   );
 }
+
+export default page

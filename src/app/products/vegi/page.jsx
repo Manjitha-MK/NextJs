@@ -26,9 +26,9 @@ function page() {
       <h1>Vegi Items page</h1>
 
       <ul>
-        {vegitable.map((vegi) => {
+        {vegitable.map((vegi, index) => {
           return (
-            <li>
+            <li key={index}>
               <Link href={`/products/vegi/${vegi.name}`}>{vegi.name}</Link>
             </li>
           );
