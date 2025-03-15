@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import img1 from "../../public/elephant.jpg"
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
 
 
       </ul>
+      <div>
+          <Image src={img1} alt="Elephant image"/>
+      </div>
     </>
   );
 }
