@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import img1 from "../../public/elephant.jpg";
+import Button from "./(components)/Button";
 
 export default function Home() {
   return (
@@ -34,6 +35,9 @@ export default function Home() {
       </div>
       <div>
         <Image className="w-full h-full" src="https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg" alt="Road image" width={500} height={300}/>
+      </div>
+      <div>
+        <Button />
       </div>
     </>
   );
