@@ -29,6 +29,9 @@ export default function Home() {
         <li>
           <Link href="/products/vegi">Vegis Page</Link>
         </li>
+        <li>
+          <Link href="/eventhandling">Event Handling</Link>
+        </li>
       </ul>
       <div>
         <Image src={img1} alt="Elephant image" className="w-full"/>
